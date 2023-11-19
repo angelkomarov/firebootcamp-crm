@@ -1,0 +1,23 @@
+<!-- <pre>
+    {{ companies | json }}
+</pre> -->
+
+<div class="container">
+
+<h1>
+    Super Company CRM
+</h1>
+<a class="btn btn-success float-end" [routerLink]="['/company/add']"> Add </a>
+
+<fbc-company-table
+  [companies]="(companies$ | async) ?? []"
+  (deleteClickedEvent)="deleteCompany($event)"
+ ></fbc-company-table>
+
+
+</div>
+
+<!--
+<pre>
+    {{ (companies$ | async)![0]?.name | uppercase  }}
+</pre> -->

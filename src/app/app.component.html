@@ -1,0 +1,15 @@
+<nav class="navbar navbar-light bg-faded">
+  <div class="container-fluid">
+    <a class="navbar-brand">FireBootCamp CRM </a> <a [routerLink]="['/rocket']" > 🚀 </a>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item" [routerLinkActive]="'active'">
+        <a [routerLink]="['/company/list']" class="nav-link">Companies (<span id="company-count">{{ (companyCount$ | async)}}</span>)</a>
+      </li>
+      <li class="nav-item" [routerLinkActive]="'active'">
+        <a [routerLink]="['/admin']" class="nav-link">Admin</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
