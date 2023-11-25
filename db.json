@@ -1,0 +1,36 @@
+{
+  "company": [
+    {
+      "id": 1,
+      "name": "IBM",
+      "checkPhone": true,
+      "phone": "+61458974112",
+      "email": "ibm@hotmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Microsoft",
+      "phone": "+61458974222",
+      "email": "microsoft@hotmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Apple",
+      "phone": "+61458974333",
+      "email": "apple@hotmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Google",
+      "phone": "+61458974444",
+      "email": "google@hotmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Yahoo",
+      "checkPhone": true,
+      "phone": "+61458974555",
+      "email": "yahoo@hotmail.com"
+    }
+  ]
+}

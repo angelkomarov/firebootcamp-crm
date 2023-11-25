@@ -15,7 +15,8 @@ import {
   providedIn: 'root',
 })
 export class CompanyService {
-  API_BASE = 'https://app-fbc-crm-api-prod.azurewebsites.net/api';
+  // API_BASE = 'https://app-fbc-crm-api-prod.azurewebsites.net/api';
+  API_BASE = 'http://localhost:5000';
 
   constructor(private httpClient: HttpClient) {}
 
