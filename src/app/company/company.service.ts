@@ -16,7 +16,9 @@ import {
 })
 export class CompanyService {
   // API_BASE = 'https://app-fbc-crm-api-prod.azurewebsites.net/api';
-  API_BASE = 'http://localhost:5000';
+  //using local json server for fake REST API: https://github.com/typicode/json-server
+  //note: Run the server first in separate terminal, e.g. npm run server
+  API_BASE = 'http://localhost:5000'; 
 
   constructor(private httpClient: HttpClient) {}
 
